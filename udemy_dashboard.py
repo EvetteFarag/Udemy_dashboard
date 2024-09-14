@@ -38,7 +38,7 @@ st.sidebar.markdown("Made with :heart_eyes: by [Evette Farag](www.linkedin.com/i
 a1 , a2 , a3  = st.columns([3,3,3])
 
 with a1:
-    a1.metric("No. of courses" ,df["course_id"].value_counts().sum())
+    a1.metric("No. of courses" ,df["course_title"].value_counts().sum())
 with a2:
     # Calculate total profit
     sum_profit = df["Profit"].sum()
