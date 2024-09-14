@@ -18,7 +18,7 @@ st.sidebar.write("")
 st.sidebar.write("Educational Dashboard Using Udemy Dataset")
 st.sidebar.write("")
 
-st.sidebar.image("Udemy.jpg")
+#st.sidebar.image("Udemy.jpg")
 st.sidebar.write("")
 
 st.sidebar.write("Filter your data :")
@@ -211,8 +211,6 @@ with n1:
             color="Duration_Category",
             color_continuous_scale=px.colors.sequential.Viridis,
 )
-
-
 # Update the layout to position the title in the center
 fig5.update_layout(
 
@@ -222,9 +220,9 @@ fig5.update_layout(
     xaxis=dict(showgrid=False),  # Remove x-axis gridlines
     yaxis=dict(showgrid=False),  # Remove y-axis gridlines
 )
-
-# Display the chart
+ # Display the chart
 st.plotly_chart(fig5, use_container_width=True)
+
 
 
 
