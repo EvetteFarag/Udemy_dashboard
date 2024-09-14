@@ -10,7 +10,7 @@ st.set_page_config(page_title="Udemy Dashboard",
                     layout="wide",
                     initial_sidebar_state="expanded")
 
-df = pd.read_csv(r"C:\\Users\\hp\Desktop\\tips\\udemy_project\\udemy model.csv")
+df = pd.read_csv("udemy model.csv")
 
 st.sidebar.header("Udemy Dashboard")
 st.sidebar.write("")
